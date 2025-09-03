@@ -1,0 +1,5 @@
+streamlit==1.28.0
+oracledb==3.3.0
+
+ # built-in with Python, usually no need to install
+pandas==2.1.1
