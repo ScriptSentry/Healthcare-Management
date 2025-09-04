@@ -1,5 +1,18 @@
-streamlit==1.28.0
-oracledb==3.3.0
+# Upgrade pip first to avoid installer issues
+pip==25.2
 
- # built-in with Python, usually no need to install
-pandas==2.1.1
+# Core framework
+streamlit==1.37.0
+
+# Database
+oracledb==2.2.0   # Oracle driver (⚠️ may fail on Streamlit Cloud)
+
+# Utilities
+pandas==2.2.2
+numpy==1.26.4
+
+# Security / hashing
+cryptography==42.0.8
+
+# Date handling
+python-dateutil==2.9.0.post0
